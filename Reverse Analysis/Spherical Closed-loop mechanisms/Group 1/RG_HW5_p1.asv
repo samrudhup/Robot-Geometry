@@ -1,0 +1,14 @@
+
+function[x]=Solve(A,B,D);
+% gamma=0;
+% q=A^2+B^2;
+% s_gamma= B/(sqrt(q));
+% gamma=asin(s_gamma);
+sqrsum=A^2+B^2;
+X=-D/sqrt(sqrsum);
+if X <= -1 && X >= 1
+    x="There are two differeent solution for theta";
+else 
+    
+
+
